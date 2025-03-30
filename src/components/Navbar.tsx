@@ -18,7 +18,7 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center">
-              <span className="font-bold text-2xl text-politics-blue">Civic<span className="text-politics-red">Chatters</span></span>
+              <span className="font-bold text-2xl text-politics-blue">Poli<span className="text-politics-red">TalkHub</span></span>
             </Link>
             <div className="hidden md:flex relative w-64">
               <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />

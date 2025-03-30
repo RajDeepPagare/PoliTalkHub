@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">CivicChatters</h3>
+            <h3 className="text-lg font-semibold mb-4">PoliTalkHub</h3>
             <p className="text-sm text-gray-300">
               A platform for meaningful political discourse and engagement.
               Connect with others, discuss issues, and make a difference.
@@ -48,7 +48,7 @@ export function Footer() {
         
         <div className="mt-8 pt-6 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            © {new Date().getFullYear()} CivicChatters. All rights reserved.
+            © {new Date().getFullYear()} PoliTalkHub. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <Button variant="ghost" size="sm" className="text-gray-300 hover:text-white p-0 h-auto">
